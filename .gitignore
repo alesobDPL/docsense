@@ -1,0 +1,32 @@
+# Python / venv
+__pycache__/
+*.pyc
+.venv*/
+.venv*/
+
+# Data y cachés
+data/
+*.db
+.chromadb/
+chroma/
+
+# Entornos
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# proyecto-ordenado
+/docs/privado/
+/docs/.obsidian/
+.env.*
+!.env.example
+.claude/settings.local.json
+.pytest_cache/
